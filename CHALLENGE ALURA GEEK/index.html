@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,  inicial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Alura Geek Pamella</title>
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/flexbox.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a5526f0a9a.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        <header class="cabecalho">
+            <img src="./imagens/Logo2.png" alt="Logo do Alura Geek">
+        </header>
+        
+        <main class="principal">
+                     
+            <section class="produtos"> 
+                <img class="meusprodutos" src="./imagens/meus produtos.jpg" alt="Meus produtos">
+                <div class="produtos__adicionados">
+                    <img class="produtos__imagem" src="./imagens/stormtrooper.png" alt="Caneca StormTrooper" id="StormTrooper">
+                    <img class="produtos__imagem" src="./imagens/Game Boy Classic.png" alt="Game Boy Clássico" id="GameBoy">
+                    <img class="produtos__imagem" src="./imagens/stormtrooper.png" alt="Caneca StormTrooper">
+                    <img class="produtos__imagem" src="./imagens/Game Boy Classic.png" alt="Game Boy Clássico">
+                </div>    
+            </section>
+            
+            <section class="formulario">
+                <img class="addproduto" src="./imagens/adicionar produtos.jpg" alt="Adicionar produtos">
+                
+                <fieldset class="formulario__campo">
+                    <label class="campo__titulo">Nome</label>
+                    <input class="campo__entrada" type="text" id="inputNome" required>
+                    <span class="mensagem-erro"></span>
+                </fieldset>
+                
+            <fieldset class="formulario__campo">
+                    <label class="campo__titulo">Valor</label>
+                    <input class="campo__entrada" type="text" required>
+                    <span class="mensagem-erro"></span>
+                </fieldset>
+                
+                <fieldset class="formulario__campo">
+                    <label class="campo__titulo">Imagem</label>
+                    <input class="campo__entrada" type="text" required>
+                    <span class="mensagem-erro"></span>
+                </fieldset>
+                
+                <div class="botao">
+                    <button class="botao__salvar">Salvar</button>
+                    <button class="botao__limpar">Limpar</button>
+                </div>
+            </section>
+        </main>
+        <footer class="rodape">
+            <img src="./imagens/Logo2.png" alt="Logo do Alura Geek">
+            <p>DESENVOLVIDO POR PAMELLA BENATTI - 2024</p>
+            <section class="icones">
+                <a class="icones__icon" href="https://www.linkedin.com/in/pamella-benatti-53ab1b114/"><i class="fa-brands fa-linkedin"></i></a>
+                <a class="icones__icon" href="https://github.com/PamellaBenatti"><i class="fa-brands fa-github"></i></a>
+            </section>
+        </footer>
+        <script src="./javascript/main.js"></script>
+    </body>
+</html>
